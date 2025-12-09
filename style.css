@@ -1,0 +1,257 @@
+body {
+    font-family: 'League Gothic', sans-serif;
+    color: white;
+    line-height: 1.4;
+    background: #a30000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 200px;
+    width: auto;
+}
+
+.nav-bar > div {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin: 0 15px;
+    display: inline;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 2.00rem;
+    color: white;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.container-simples {
+    width: 940px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.titulo-pagina {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 30px;
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+    text-shadow: 2px 2px #550000;
+}
+
+.bloco-destaque, 
+.bloco-conteudo, 
+.bloco-pequeno, 
+.bloco-sobre,
+.bloco-publicacoes,
+.bloco-contato,
+.bloco-video {
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 10px 10px 5px #000000;
+}
+
+.bloco-destaque img, 
+.bloco-conteudo img {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    opacity: 0.7;
+    transition: 400ms;
+}
+
+.bloco-destaque img:hover, 
+.bloco-conteudo img:hover {
+    opacity: 1;
+}
+
+.bloco-destaque .bloco-texto, 
+.bloco-conteudo .bloco-texto {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.bloco-destaque h2, 
+.bloco-conteudo h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 1;
+    text-shadow: 2px 2px #800000;
+}
+
+.bloco-destaque p, 
+.bloco-conteudo p {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.bloco-sobre p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.divs-menores {
+    width: 100%;
+    font-size: 0; 
+}
+
+.bloco-pequeno {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 2%;
+    font-size: 1rem; 
+}
+
+.bloco-pequeno:last-child {
+    margin-right: 0;
+}
+
+.bloco-pequeno img {
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.7;
+    transition: 400ms;
+}
+
+.bloco-pequeno img:hover {
+    opacity: 1;
+}
+
+.bloco-pequeno h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #800000;
+}
+
+.bloco-publicacoes h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px #800000;
+}
+
+.bloco-publicacoes ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.bloco-publicacoes li {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.leia-mais a {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #1a1a1a;
+    color: #888888;
+    font-size: 18px;
+}
+
+.bloco-contato h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #800000;
+}
+
+form label {
+    display: block;
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: #a30000;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s background;
+}
+
+.enviar:hover {
+    background: #800000;
+}
+
+.bloco-video {
+    text-align: center;
+}
+
+.bloco-video h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #800000;
+}
+
+.bloco-video p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
