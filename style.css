@@ -255,3 +255,53 @@ form label {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 480px) {
+    .nav-bar, .container-simples {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .nav-bar > div {
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .nav-list ul {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .bloco-destaque img, 
+    .bloco-conteudo img,
+    .bloco-destaque .bloco-texto, 
+    .bloco-conteudo .bloco-texto {
+        width: 100%;
+        display: block;
+        padding-left: 0;
+    }
+
+    .bloco-destaque img,
+    .bloco-conteudo img {
+        margin-bottom: 20px;
+    }
+
+    .bloco-pequeno {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .enviar {
+        width: 100%;
+    }
+}
